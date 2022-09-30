@@ -1,0 +1,56 @@
+
+:root {
+        --brand-color-main: #212121;
+        --brand-color-text: #757575;
+        --brand-color-focus: #2196f3;
+        --brand-background-color: #2f303a;
+        --main-white: #ffffff ;
+}
+
+ body {
+     background-color: #FFFFFF;
+     font-family: 'Roboto';
+ }
+
+ a {
+     text-decoration: none;
+ }
+
+ ul {
+     list-style-type: none;
+ }
+
+button {
+    cursor: pointer;
+}
+
+.logo-link {
+    color: var(--brand-color-focus);
+} 
+
+
+.sec-logo {
+color: #212121;
+}
+
+.hero {
+    background-color: #2F303A;
+}
+
+.hero-tittle {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 60px;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+    
+        color: var(--main-white);
+}
+
+.button-hero{
+    background-color:var(--brand-color-focus);
+    color: var(--main-white);
+}
