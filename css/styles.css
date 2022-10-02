@@ -29,15 +29,48 @@
 
  .logo-link {
     color: var(--brand-color-focus);
+    font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+        letter-spacing: 0.03em;
 }
 
  .sec-logo {
     color: #212121;
+    font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+        letter-spacing: 0.03em;
 }
 
  .header-nav {
     color: var(--brand-color-main);
 }
+
+.header-nav:hover{
+    color: var(--brand-color-focus);
+}
+
+.header-nav:focus {
+    color: var(--brand-color-focus);
+}
+
+.header-nav-portfolio{
+    color: var(--brand-color-focus);
+}
+
+.header-nav-portfolio:hover {
+    color: var(--brand-color-focus);
+}
+
+.header-nav-portfolio:focus{
+    color: var(--brand-color-focus);
+}
+
 
  .header-info {
     color: var(--brand-color-text);
@@ -66,7 +99,7 @@
     color: var(--main-white);
 }
 
-/* second section*/
+/* about us */
 
 .sec-tittle {
     color: var(--brand-color-main) ;
@@ -77,7 +110,11 @@
     color: var(--brand-color-text);
 }
 
-/* about-us */
+/* about us img */
+ 
+.tittle-about-us{
+    color: var(--brand-color-main)
+}
 
 /* team */
 
@@ -102,6 +139,12 @@
 
  .footer{
     background-color: var(--brand-background-color);
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
  }
 
 .sec-logo-footer{
@@ -115,3 +158,18 @@ color: var(--main-white);
  .footer-info{
     color: rgba(255, 255, 255, 0.6);
  }
+
+ /* portfolio */
+
+ .portfolio-button{
+    background-color: var(--brand-secondery-background);
+    color: var(--brand-color-main);
+    border-radius: 4px;
+ }
+ .portfolio-button:hover{
+    background-color: var(--brand-color-focus);
+    color: var(--main-white);
+ }
+ .portfolio-button:focus{
+    background-color: var(--brand-color-focus);
+    color: var(--main-white);}

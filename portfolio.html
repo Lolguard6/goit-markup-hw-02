@@ -8,12 +8,12 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header class="main-header">
+    <header>
       <nav>
-        <a href="/"> WebStudio </a>
-        <ul class="header-nav">
+        <a href="/" class="logo-link"> Web<span class="sec-logo">Studio</span> </a>
+        <ul>
           <li><a class="header-nav" href="">Студія</a></li>
-          <li><a class="header-nav" href="">Портфоліо</a></li>
+          <li><a class="header-nav-portfolio" href="./portfolio.html">Портфоліо</a></li>
           <li><a class="header-nav" href="">Контакти</a></li>
         </ul>
       </nav>
@@ -25,112 +25,129 @@
       </div>
     </header>
     <main>
-      <h1 class="title" hidden>заголовок 1</h1>
-      <button type="button">Усі</button>
-      <button type="button">Веб-сайти</button>
-      <button type="button">Додатки</button>
-      <button type="button">Дизайн</button>
-      <button type="button">Маркетинг</button>
-      <ul>
-        <li>
-          <img
-            src="./images/portfolio/people.jpg"
-            alt="ноутбук з видкритою сторінкою з людьми"
-            width="370"
-            height="294"
-          />
-          <h2>технокряк</h2>
-          <p>Веб-сайт</p>
-        </li>
-        <li>
-          <img
-            src="./images/portfolio/basketball.jpg"
-            alt="Постер з двума професійними гравцями в баскетбол"
-            width="370"
-            height="294"
-          />
-          <h2>Постер New Orlean vs Golden Star</h2>
-          <p>Дизайн</p>
-        </li>
-        <li>
-          <img
-            src="./images/portfolio/seafood_logo.jpg"
-            alt="Лого рибного ресторану "
-            width="370"
-            height="294"
-          />
-          <h2>Ресторан Seafood</h2>
-          <p>Додаток</p>
-        </li>
-        <li>
-          <img
-            src="./images/portfolio/headphones.jpg"
-            alt="повнорозмірні навушники"
-            width="370"
-            height="294"
-          />
-          <h2>Проєкт Prime</h2>
-          <p>Маркетинг</p>
-        </li>
-        <li>
-          <img
-            src="./images/portfolio/boxes.jpg"
-            alt="дві коробки на столі"
-            width="370"
-            height="294"
-          />
-          <h2>Проєкт Boxes</h2>
-          <p>Додаток</p>
-        </li>
-        <li>
-          <img
-            src="./images/portfolio/imac.jpg"
-            alt="компьютер з відкритою презентаціею"
-            width="370"
-            height="294"
-          />
-          <h2 lang="en">Inspiration has no Borders</h2>
-          <p>Веб-сайт</p>
-        </li>
-        <li>
-          <img
-            src="./images/portfolio/book.jpg"
-            alt="відкріта книга з різними фото"
-            width="370"
-            height="294"
-          />
-          <h2>Видання Limited Edition</h2>
-          <p>Дизайн</p>
-        </li>
-        <li>
-          <img
-            src="./images/portfolio/tag.jpg"
-            alt="бірка з надписом lab el tag"
-            width="370"
-            height="294"
-          />
-          <h2>Проєкт LAB</h2>
-          <p>Маркетинг</p>
-        </li>
-        <li>
-          <img
-            src="./images/portfolio/macbook.jpg"
-            alt="людина розроблюе рекламу"
-            width="370"
-            height="294"
-          />
-          <h2 lang="en">Growing Business</h2>
-          <p>Додаток</p>
-        </li>
-      </ul>
+      <section class="potfolio-buttons">
+        <h1 class="title-portfolio" hidden>заголовок 1</h1>
+        <button class="portfolio-button" type="button">Усі</button>
+        <button class="portfolio-button" type="button">Веб-сайти</button>
+        <button class="portfolio-button" type="button">Додатки</button>
+        <button class="portfolio-button" type="button">Дизайн</button>
+        <button class="portfolio-button" type="button">Маркетинг</button>
+      </section>
+      <section class="our-work">
+        <ul>
+          <li>
+            <img
+              class="portfolio-img"
+              src="./images/portfolio/people.jpg"
+              alt="ноутбук з видкритою сторінкою з людьми"
+              width="370"
+              height="294"
+            />
+            <h2 class="portfolio-tittle">технокряк</h2>
+            <p class="portfolio-paragraph">Веб-сайт</p>
+          </li>
+          <li>
+            <img
+              class="portfolio-img"
+              src="./images/portfolio/basketball.jpg"
+              alt="Постер з двума професійними гравцями в баскетбол"
+              width="370"
+              height="294"
+            />
+            <h2 class="portfolio-tittle">Постер New Orlean vs Golden Star</h2>
+            <p class="portfolio-paragraph">Дизайн</p>
+          </li>
+          <li>
+            <img
+              class="portfolio-img"
+              src="./images/portfolio/seafood_logo.jpg"
+              alt="Лого рибного ресторану "
+              width="370"
+              height="294"
+            />
+            <h2 class="portfolio-tittle">Ресторан Seafood</h2>
+            <p class="portfolio-paragraph">Додаток</p>
+          </li>
+          <li>
+            <img
+              class="portfolio-img"
+              src="./images/portfolio/headphones.jpg"
+              alt="повнорозмірні навушники"
+              width="370"
+              height="294"
+            />
+            <h2 class="portfolio-tittle">Проєкт Prime</h2>
+            <p class="portfolio-paragraph">Маркетинг</p>
+          </li>
+          <li>
+            <img
+              class="portfolio-img"
+              src="./images/portfolio/boxes.jpg"
+              alt="дві коробки на столі"
+              width="370"
+              height="294"
+            />
+            <h2 class="portfolio-tittle">Проєкт Boxes</h2>
+            <p class="portfolio-paragraph">Додаток</p>
+          </li>
+          <li>
+            <img
+              class="portfolio-img"
+              src="./images/portfolio/imac.jpg"
+              alt="компьютер з відкритою презентаціею"
+              width="370"
+              height="294"
+            />
+            <h2 class="portfolio-tittle" lang="en">Inspiration has no Borders</h2>
+            <p class="portfolio-paragraph">Веб-сайт</p>
+          </li>
+          <li>
+            <img
+              class="portfolio-img"
+              src="./images/portfolio/book.jpg"
+              alt="відкріта книга з різними фото"
+              width="370"
+              height="294"
+            />
+            <h2 class="portfolio-tittle">Видання Limited Edition</h2>
+            <p class="portfolio-paragraph">Дизайн</p>
+          </li>
+          <li>
+            <img
+              class="portfolio-img"
+              src="./images/portfolio/tag.jpg"
+              alt="бірка з надписом lab el tag"
+              width="370"
+              height="294"
+            />
+            <h2 class="portfolio-tittle">Проєкт LAB</h2>
+            <p class="portfolio-paragraph">Маркетинг</p>
+          </li>
+          <li>
+            <img
+              class="portfolio-img"
+              src="./images/portfolio/macbook.jpg"
+              alt="людина розроблюе рекламу"
+              width="370"
+              height="294"
+            />
+            <h2 class="portfolio-tittle" lang="en">Growing Business</h2>
+            <p class="portfolio-paragraph">Додаток</p>
+          </li>
+        </ul>
+      </section>
     </main>
-    <footer>
-      <a href="/"> WebStudio </a>
+    <footer class="footer">
+      <a href="/" class="logo-link"> Web<span class="sec-logo-footer">Studio</span> </a>
       <address>
         <ul>
-          <li><a href=""> м. Київ, пр-т Лесі Українки, 26 </a></li>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+          <li>
+            <a class="address" href="https://goo.gl/maps/sXkZo2p6Jg7kgzVbA">
+              м. Київ, пр-т Лесі Українки, 26
+            </a>
+          </li>
+          <li><a class="footer-info" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          <li><a class="footer-info" href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
       </address>
     </footer>
