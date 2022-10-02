@@ -103,17 +103,37 @@
 
 .sec-tittle {
     color: var(--brand-color-main) ;
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
 }
 
 .sec-paragraph {
-
     color: var(--brand-color-text);
+font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+
 }
 
 /* about us img */
  
-.tittle-about-us{
+.tittle-about-us-img{
     color: var(--brand-color-main)
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+        letter-spacing: 0.03em;
 }
 
 /* team */
@@ -124,16 +144,35 @@
 
 .our-team{
  color: var(--brand-color-main);
-
+font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 .team-member{
     color: var(--brand-color-main);
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        letter-spacing: 0.03em;
 }
 
 .member-description {
     color: var(--brand-color-text) ;
-
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
  /* footer */
 
