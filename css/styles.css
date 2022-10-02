@@ -4,35 +4,46 @@
         --brand-color-text: #757575;
         --brand-color-focus: #2196f3;
         --brand-background-color: #2f303a;
+        --brand-secondery-background:#F5F4FA;
         --main-white: #ffffff ;
-}
-
- body {
-     background-color: #FFFFFF;
-     font-family: 'Roboto';
- }
+    }
 
  a {
-     text-decoration: none;
- }
+    text-decoration: none;
+}
 
  ul {
      list-style-type: none;
  }
 
-button {
-    cursor: pointer;
-}
+ button {
+      cursor: pointer;
+  }
 
-.logo-link {
+ body {
+     background-color: var(--main-white);
+     font-family: 'Roboto';
+ }
+
+ /* header */
+
+ .logo-link {
     color: var(--brand-color-focus);
-} 
-
-
-.sec-logo {
-color: #212121;
 }
 
+ .sec-logo {
+    color: #212121;
+}
+
+ .header-nav {
+    color: var(--brand-color-main);
+}
+
+ .header-info {
+    color: var(--brand-color-text);
+}
+
+/* hero */
 .hero {
     background-color: #2F303A;
 }
@@ -54,3 +65,53 @@ color: #212121;
     background-color:var(--brand-color-focus);
     color: var(--main-white);
 }
+
+/* second section*/
+
+.sec-tittle {
+    color: var(--brand-color-main) ;
+}
+
+.sec-paragraph {
+
+    color: var(--brand-color-text);
+}
+
+/* about-us */
+
+/* team */
+
+.team{
+    background-color: var(--brand-secondery-background);
+}
+
+.our-team{
+ color: var(--brand-color-main);
+
+}
+
+.team-member{
+    color: var(--brand-color-main);
+}
+
+.member-description {
+    color: var(--brand-color-text) ;
+
+}
+ /* footer */
+
+ .footer{
+    background-color: var(--brand-background-color);
+ }
+
+.sec-logo-footer{
+color: var(--main-white);
+}
+
+ .address{
+    color: var(--main-white);
+ }
+
+ .footer-info{
+    color: rgba(255, 255, 255, 0.6);
+ }
