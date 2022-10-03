@@ -126,7 +126,7 @@
 }
 
 .sec-paragraph {
-
+color: var(--brand-color-text);
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -161,22 +161,19 @@
 }
 
 .team-member{
-
-
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.18;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
 }
 
 .member-description {
-
-
-
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.18;
+    color: var(--brand-color-text);
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.19;
 }
  /* footer */
 
@@ -210,6 +207,11 @@ color: var(--main-white);
 
  .footer-info{
     color: rgba(255, 255, 255, 0.6);
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
  }
 
 .footer-info:hover{
@@ -239,3 +241,16 @@ color: var(--main-white);
  .portfolio-button:focus{
     background-color: var(--brand-color-focus);
     color: var(--main-white);}
+    .portfolio-tittle{
+        font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 2 ;
+    }
+    .portfolio-paragraph{
+        color: var(--brand-color-text);
+        font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 30px;
+    }
