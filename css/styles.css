@@ -23,6 +23,7 @@
  body {
      background-color: var(--main-white);
      font-family: 'Roboto';
+     color: var(--brand-color-main);
  }
 
  /* header */
@@ -33,17 +34,17 @@
         font-style: normal;
         font-weight: 700;
         font-size: 26px;
-        line-height: 31px;
+        line-height: 1.19;
         letter-spacing: 0.03em;
 }
 
  .sec-logo {
-    color: #212121;
+    color:var(--brand-color-main);
     font-family: 'Raleway';
         font-style: normal;
         font-weight: 700;
         font-size: 26px;
-        line-height: 31px;
+        line-height: 1.19;
         letter-spacing: 0.03em;
 }
 
@@ -59,6 +60,10 @@
     color: var(--brand-color-focus);
 }
 
+.header-nav-index{
+    color: var(--brand-color-focus);
+}
+
 .header-nav-portfolio{
     color: var(--brand-color-focus);
 }
@@ -71,9 +76,16 @@
     color: var(--brand-color-focus);
 }
 
-
  .header-info {
     color: var(--brand-color-text);
+}
+
+.header-info:focus{
+    color:var(--brand-color-focus);
+}
+
+.header-info:hover{
+    color: var(--brand-color-focus);
 }
 
 /* hero */
@@ -82,14 +94,10 @@
 }
 
 .hero-tittle {
-    font-family: 'Roboto';
         font-style: normal;
         font-weight: 900;
         font-size: 44px;
-        line-height: 60px;
-        text-align: center;
-        letter-spacing: 0.06em;
-        text-transform: uppercase;
+        line-height: 1,36;
     
         color: var(--main-white);
 }
@@ -99,26 +107,27 @@
     color: var(--main-white);
 }
 
+.button-hero:hover
+
 /* about us */
 
 .sec-tittle {
-    color: var(--brand-color-main) ;
-    font-family: 'Roboto';
+
+
         font-style: normal;
         font-weight: 700;
         font-size: 14px;
-        line-height: 16px;
+        line-height: 1.14;
         letter-spacing: 0.03em;
         text-transform: uppercase;
 }
 
 .sec-paragraph {
-    color: var(--brand-color-text);
-font-family: 'Roboto';
+
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
 
 }
@@ -126,14 +135,12 @@ font-family: 'Roboto';
 /* about us img */
  
 .tittle-about-us-img{
-    color: var(--brand-color-main)
-    font-family: 'Roboto';
+
+
         font-style: normal;
         font-weight: 700;
         font-size: 36px;
-        line-height: 42px;
-        text-align: center;
-        letter-spacing: 0.03em;
+        line-height:1.16;
 }
 
 /* team */
@@ -143,50 +150,42 @@ font-family: 'Roboto';
 }
 
 .our-team{
- color: var(--brand-color-main);
-font-family: 'Roboto';
+
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
-    text-align: center;
-    letter-spacing: 0.03em;
+    line-height: 1.16;
 }
 
 .team-member{
-    color: var(--brand-color-main);
-    font-family: 'Roboto';
+
+
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
-        line-height: 19px;
-        text-align: center;
-        letter-spacing: 0.03em;
+        line-height: 1.18;
 }
 
 .member-description {
-    color: var(--brand-color-text) ;
-    font-family: 'Roboto';
+
+
+
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 19px;
-    text-align: center;
-    letter-spacing: 0.03em;
+    line-height: 1.18;
 }
  /* footer */
 
  .footer{
     background-color: var(--brand-background-color);
-    font-family: 'Roboto';
         font-style: normal;
         font-weight: 500;
         font-size: 14px;
-        line-height: 16px;
-        letter-spacing: 0.02em;
+        line-height: 1.14;
  }
 
-.sec-logo-footer{
+ .sec-logo-footer{
 color: var(--main-white);
 }
 
