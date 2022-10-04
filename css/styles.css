@@ -31,7 +31,7 @@
  .logo-link {
     color: var(--brand-color-focus);
     font-family: 'Raleway';
-        font-style: normal;
+        
         font-weight: 700;
         font-size: 26px;
         line-height: 1.19;
@@ -41,7 +41,7 @@
  .sec-logo {
     color:var(--brand-color-main);
     font-family: 'Raleway';
-        font-style: normal;
+        
         font-weight: 700;
         font-size: 26px;
         line-height: 1.19;
@@ -50,6 +50,10 @@
 
  .header-nav {
     color: var(--brand-color-main);
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
 }
 
 .header-nav:hover{
@@ -62,11 +66,19 @@
 
 .header-nav-index{
     color: var(--brand-color-focus);
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
 }
 
 .header-nav-portfolio{
     color: var(--brand-color-focus);
-}
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+    }
 
 .header-nav-portfolio:hover {
     color: var(--brand-color-focus);
@@ -74,10 +86,21 @@
 
 .header-nav-portfolio:focus{
     color: var(--brand-color-focus);
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
 }
 
  .header-info {
     color: var(--brand-color-text);
+    font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14  ;
+        letter-spacing: 0.02em;
 }
 
 .header-info:focus{
@@ -91,23 +114,28 @@
 /* hero */
 .hero {
     background-color: #2F303A;
-}
+}   
 
 .hero-tittle {
-        font-style: normal;
         font-weight: 900;
         font-size: 44px;
-        line-height: 1,36;
+        line-height: 1.36;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
     
         color: var(--main-white);
 }
 
 .button-hero{
     font-family: 'Roboto';
-        font-style: normal;
         font-weight: 700;
         font-size: 16px;
         line-height: 1.87;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
     background-color:var(--brand-color-focus);
     color: var(--main-white);
 }
@@ -115,9 +143,6 @@
 /* about us */
 
 .sec-tittle {
-
-
-        font-style: normal;
         font-weight: 700;
         font-size: 14px;
         line-height: 1.14;
@@ -127,8 +152,6 @@
 
 .sec-paragraph {
 color: var(--brand-color-text);
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -138,12 +161,11 @@ color: var(--brand-color-text);
 /* about us img */
  
 .tittle-about-us-img{
-
-
-        font-style: normal;
-        font-weight: 700;
-        font-size: 36px;
-        line-height:1.16;
+    font-weight: 700;
+    font-size: 36px;
+    line-height:1.67;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 /* team */
@@ -153,33 +175,32 @@ color: var(--brand-color-text);
 }
 
 .our-team{
-
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 .team-member{
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 .member-description {
     color: var(--brand-color-text);
-    font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
         font-size: 16px;
         line-height: 1.19;
+        text-align: center;
+        letter-spacing: 0.03em;
 }
  /* footer */
 
  .footer{
     background-color: var(--brand-background-color);
-        font-style: normal;
         font-weight: 500;
         font-size: 14px;
         line-height: 1.14;
@@ -191,8 +212,6 @@ color: var(--main-white);
 
  .address{
    color: var(--main-white);
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
  } 
@@ -207,9 +226,6 @@ color: var(--main-white);
 
  .footer-info{
     color: rgba(255, 255, 255, 0.6);
-    font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
         font-size: 14px;
         line-height: 1.71;
  }
@@ -225,11 +241,11 @@ color: var(--main-white);
  /* portfolio */
 
  .portfolio-button{
-    font-family: 'Roboto';
-        font-style: normal;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.63;
+        text-align: center;
+        letter-spacing: 0.03em;
     background-color: var(--brand-secondery-background);
     color: var(--brand-color-main);
     border-radius: 4px;
@@ -242,15 +258,14 @@ color: var(--main-white);
     background-color: var(--brand-color-focus);
     color: var(--main-white);}
     .portfolio-tittle{
-        font-style: normal;
             font-weight: 700;
             font-size: 18px;
             line-height: 2 ;
+            letter-spacing: 0.06em;
     }
     .portfolio-paragraph{
         color: var(--brand-color-text);
-        font-style: normal;
-            font-weight: 400;
             font-size: 16px;
-            line-height: 30px;
+            line-height: 1.88;
+            letter-spacing: 0.03em;
     }
