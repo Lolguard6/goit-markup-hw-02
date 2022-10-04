@@ -86,8 +86,6 @@
 
 .header-nav-portfolio:focus{
     color: var(--brand-color-focus);
-    font-family: 'Roboto';
-        font-style: normal;
         font-weight: 500;
         font-size: 14px;
         line-height: 1.14;
@@ -96,7 +94,6 @@
 
  .header-info {
     color: var(--brand-color-text);
-    font-style: normal;
         font-weight: 500;
         font-size: 14px;
         line-height: 1.14  ;
@@ -186,7 +183,6 @@ color: var(--brand-color-text);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
-    text-align: center;
     letter-spacing: 0.03em;
 }
 
@@ -194,7 +190,6 @@ color: var(--brand-color-text);
     color: var(--brand-color-text);
         font-size: 16px;
         line-height: 1.19;
-        text-align: center;
         letter-spacing: 0.03em;
 }
  /* footer */
